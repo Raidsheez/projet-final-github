@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+}
+/* Barre de menu */
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+header #menu-principal{
+    display: flex;
+    flex-direction: row;
+    background-color: #024275;
+    width: 100%;
+}
+header #menu-principal #logo-menu-petit{
+    width: 15%;
+    text-align: center;
+}
+header #menu-principal ul{
+    width: 70%;
+    text-align: center;
+    margin-top: 50px;
+}
+header #menu-principal #button{
+    width: 10%;
+    text-align: center;
+    margin: 45px;
+    padding:5px 5px;
+    background-color:#0163AC;
+    color: white;
+    border: 3px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;  
+    font-weight: bold;
+    font-size: 1rem;
+}
+header #menu-principal #button:hover{
+    background-color:#024275;
+}
+header #menu-principal ul li{
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+}
+header #menu-principal ul li a{
+    text-decoration: none;  
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+header #menu-principal ul li a:hover{
+    color: #0163AC;
+}
+

@@ -1,0 +1,16 @@
+{
+    "name": "kercode4/projet-final",
+    "description": "projet-mvc",
+    "authors": [
+        {
+            "name": "Marlène JAGUT",
+            "email": "raidsheez@hotmail.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4" :{
+            "Projet\\" : "./app/"
+        }
+    },
+    "require": {}
+}
